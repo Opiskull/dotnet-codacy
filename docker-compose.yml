@@ -1,0 +1,6 @@
+version: '2'
+
+services:
+  codacy:
+    build: .
+    image: opiskull/dotnet-codacy:latest
